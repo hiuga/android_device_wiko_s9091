@@ -8,11 +8,9 @@ initialize repo with cm9 repository:
 
 Now retrieve Wiko PEAX repositories (Should be using local_manifests.xml instead):
 
-	for folder in device kernel vendor;
-	do
-		mkdir -p $folder/wiko/s9091;
-		git clone "http://github.com/skritchz/android_"$folder"_wiko_s9091.git" -b ics $folder/wiko/s9091;
-	done
+	mkdir -p .repo/local_manifests
+	wget https://github.com/wiko-repo/android_device_wiko_common/raw/ics/manifests/local_manifest.xml -O .repo/local_manifests/local_manifest.xml
+	wget https://github.com/wiko-repo/android_device_wiko_common/raw/ics/s9091_manifest.xml -O .repo/local_manifests/s9091_manifest.xml
 
 
 Now prepare to build
