@@ -59,9 +59,9 @@ PRODUCT_COPY_FILES += \
     device/wiko/s9091/prebuilt/root/init.usb.s9091.rc:root/init.usb.s9091.rc \
     device/wiko/s9091/prebuilt/root/ueventd.s9091.rc:root/ueventd.s9091.rc \
     device/wiko/s9091/prebuilt/system/etc/vold.fstab:system/etc/vold.fstab \
-    device/wiko/s9091/prebuilt/system/usr/keylayout/s9091_keypad.kl:/system/usr/keylayout/s9091_keypad.kl\
+    device/wiko/s9091/prebuilt/system/usr/keylayout/s9091-kpd.kl:/system/usr/keylayout/s9091_kpd.kl\
     device/wiko/s9091/prebuilt/system/etc/.tp/thermal.conf:/system/etc/.tp/thermal.conf\
-    device/wiko/s9091/prebuitl/system/etc/.tp/thermal.off.conf:/system/etc/.tp/thermal.off.conf \
+    device/wiko/s9091/prebuilt/system/etc/.tp/thermal.off.conf:/system/etc/.tp/thermal.off.conf \
     device/wiko/s9091/prebuilt/system/etc/mpeg4_venc_parameter.cfg:/system/etc/mpeg4_venc_parameter.cfg \
     device/wiko/s9091/prebuilt/system/etc/mtk_omx_core.cfg:/system/etc/mtk_omx_core.cfg \
     device/wiko/s9091/prebuilt/system/etc/player.cfg:/system/etc/player.cfg \
