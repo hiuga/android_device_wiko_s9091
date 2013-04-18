@@ -56,7 +56,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     device/wiko/s9091/prebuilt/root/init.s9091.rc:root/init.s9091.rc \
-    device/wiko/s9091/prebuilt/root/init.usb.s9091.rc:root/init.usb.s9091.rc \
+    device/wiko/s9091/prebuilt/root/init.s9091.usb.rc:root/init.s9091.usb.rc \
+    device/wiko/s9091/prebuilt/root/init.mtk.rc:root/init.mtk.rc \
     device/wiko/s9091/prebuilt/root/ueventd.s9091.rc:root/ueventd.s9091.rc \
     device/wiko/s9091/prebuilt/system/etc/vold.fstab:system/etc/vold.fstab \
     device/wiko/s9091/prebuilt/system/usr/keylayout/s9091-kpd.kl:/system/usr/keylayout/s9091_kpd.kl\
