@@ -21,6 +21,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mass_storage,adb \
     persist.service.acm.enable=0
 
+PRODUCT_PACKAGES += \
+    libui-mtk
+
 #Permissions dump from device
 PRODUCT_COPY_FILES += \
 	device/wiko/s9091/permissions/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml\

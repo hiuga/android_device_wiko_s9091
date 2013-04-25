@@ -19,6 +19,7 @@ USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
 -include vendor/wiko/s9091/BoardConfigVendor.mk
+-include device/wiko/common/BoardCommonConfig.mk
 
 
 LOCAL_FOLDER := device/wiko/s9091
